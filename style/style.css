@@ -1,0 +1,30 @@
+* {
+   background-color: black;
+}
+
+main {
+    background-color: black;
+    text-align: center;
+}
+
+/* section { */
+    /* min-height: 100vh; */
+/* } */
+
+
+
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+@media only screen and (max-widht:700px){
+   main {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+   }
+}
