@@ -1,0 +1,23 @@
+*{
+     background-color: black;
+} 
+.navheader {
+    font-family: 'Orbitron';
+  
+}
+.navheader a {
+    float: right;
+    /* color: #f2f2f2; */
+    color: #ff0000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #myVideo {
+
+    
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
