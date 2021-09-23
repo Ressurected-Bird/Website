@@ -4,17 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home Page</title>
     <link rel="stylesheet" href="style/homepage.css">
 </head>
 <body>
-    <div class="navheader" >
-        
-        <a href="Team.html">Team</a>
-        <a href="#">Features</a>
-        <a href="#">Download</a>
-        <a class="active" href="#">Screenshot</a>
-    </div>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">Piyasha</label>
+        <ul class="topnav">
+            <li><a class="active" href="#">Screenshot</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="Team.html">Team</a></li>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()"> -->
+                
+                
+        </ul>
+    </nav>
+    <section>
+
+    </section>
+    <!-- <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>  -->
 
     <video autoplay muted loop id="myVideo" width="70%">
         <source src="video/trailer.mp4" type="video/mp4">
