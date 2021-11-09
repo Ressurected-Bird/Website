@@ -56,3 +56,18 @@
   #check{
     display: none;
   }
+  h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  margin-top: 30px;
+  }
+.featureslist{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.featureslist li{ 
+  list-style-type: decimal; 
+  margin-left: 30px;
+  margin-top: 20px;
+}
