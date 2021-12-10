@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
   padding: 0;
@@ -5,31 +6,10 @@
   box-sizing: border-box;
 }
 body{
-  line-height: 1.5;
+    line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 	/* background-color: #DAA625; */
-	
 }
-
-.Developer a{
-  display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color:rgb(205, 208, 209);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: red;
-	transition: all 0.5s ease;
-}
-
-.Developer a:hover{
-	background-color: red;
-	color: white;
-}
-
-
 nav{
 	height: 80px;
 	background-color: #24262b;
@@ -91,42 +71,52 @@ ul{
 	display: none;
 }
 
-h1{
-    font-size: 50px;
-    text-align: center;
+.heading{
     color: #2559da;
-}
-section { 
-    display: block;
-     text-align: center;
-  }
-section img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
     margin-top: 20px;
-    width: 15%;
-  }
+    margin-bottom: 20px;
+}
+.subheading{
+    margin-left: 200px;
+    font-weight: 500;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.divheading{
+    margin-left: 200px;
+    font-weight: 500;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.wface{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
 
-section h2{
-      text-align: center;
-      margin-top: 10px;
-      color: rgb(0, 47, 255);
-  }
-section  h3{
+.Downlaodbtn{
+    background-color: #2559da;;
+    border-radius: 9px;
+    color: white;
+    padding: 10px 15px;
     text-align: center;
-    margin-top: 10px;
-    color: black;
-}
-section a{
-    color:blue;
-}
-section h4{
-    text-align: center;
-    color: black;
-    margin-bottom: 40px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 640px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    cursor: pointer;  
 
 }
+
 .footer{
 	background-color: #24262b;
     padding: 70px 0;
@@ -186,54 +176,62 @@ section h4{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
-} 
+}
 
-  @media screen and (max-width: 600px) {
-    label.logo{
-    font-size: 30px;
-    padding-left: 50px;
-     } 
-     nav ul li a{
-    font-size: 16px;
-  
-    }
-  }
-  @media screen and (max-width: 600px) {
-   
-    .checkbtn{
-  display: block;
-    }
-    ul{
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  background: #2c3e50;
-  top: 80px;
-  left: -100%;
-  text-align: center;
-  transition: all .5s;
-    }
-    nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-    }
-    nav ul li a{
-    font-size: 20px;
-    }
-    a:hover,a.active{
-      background: none;
-      
-      color: #0082e6;
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
-    section img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        width: 30%;
-      }
-    }
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+
+}
+
+
+@media (max-width:840px){
+	nav .menu-btn{
+		display: block;
+	}
+	.footer-col{
+		display: none;
+	}
+	#click:checked ~ .menu-btn i:before{
+		content: "\f00d";
+	}
+	.nav-links{
+		position: fixed;
+		top: 80px;
+		left: -100%;
+		background-color: #24262b;
+		height: 100vh;
+		width: 100%;
+		display: block;
+		text-align: center;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	}
+	#click:checked ~ .nav-links{	
+		left: 0%;
+	}
+	
+	.nav-links li{
+		margin: 40px 0;
+	}
+	.nav-links li a{
+		font-size: 20px;
+		display: block;
+	}
+	.nav-links li a:hover,
+.nav-links li a.active{
+	color: cyan;
+	background: none;
+
+}
+}
+
+ 
