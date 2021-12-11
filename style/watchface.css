@@ -18,6 +18,7 @@ nav{
 	justify-content: space-between;
 	padding: 0 50px 0 50px;
 }
+
 .logo{
 	font-size: 30px;
 	color: white;
@@ -102,6 +103,17 @@ ul{
   margin-bottom: 50px;
 }
 
+.parent-div {
+
+	background-color: white;
+	min-height: 80px;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
 .Downlaodbtn{
     background-color: #2559da;;
     border-radius: 9px;
@@ -109,9 +121,7 @@ ul{
     padding: 10px 15px;
     text-align: center;
     font-size: 18px;
-    margin-top: 30px;
-    margin-left: 640px;
-    margin-bottom: 30px;
+   
     font-weight: bold;
     cursor: pointer;  
 
@@ -194,6 +204,25 @@ ul{
 
 
 @media (max-width:840px){
+	
+	.heading{
+		text-align: center1;
+	}
+	.subheading{
+margin-left: 20px;
+margin-right: 10px;
+text-align: center;
+	}
+	.divheading{
+		margin-left: 20px;
+margin-right: 10px;
+text-align: center;
+	}
+	
+	
+	
+
+
 	nav .menu-btn{
 		display: block;
 	}
