@@ -133,6 +133,19 @@ ul{
 	background-color: #ffffff;
 }
 
+.screenshot{
+	text-align: center;
+}
+.screenshot img{
+	width: 500px;
+	height: 800px;
+}
+.screenshot p{
+	margin-top: -10px;
+	margin-bottom: 30px;
+		font-size: 20px;
+	font-weight: bold;
+}
 
 @media(max-width: 767px){
   .footer-col{
@@ -192,6 +205,10 @@ ul{
 	color: cyan;
 	background: none;
 
+}
+.screenshot p {
+	margin-left: 50px;
+	margin-right: 50px;
 }
 }
 
