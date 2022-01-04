@@ -133,6 +133,26 @@ ul{
 	background-color: #ffffff;
 }
 
+.screenshot{
+	text-align: center;
+}
+.screenshot img{
+	margin-top: -10px;
+	width: 500px;
+	height: 800px;
+}
+
+.screenshot .Screenshotheading{
+	margin-top: 40px;
+	font-size: 50px;
+	color: rebeccapurple;
+}
+.screenshot p{
+	margin-top: -20px;
+	margin-bottom: 30px;
+		font-size: 20px;
+	font-weight: bold;
+}
 
 @media(max-width: 767px){
   .footer-col{
@@ -192,6 +212,16 @@ ul{
 	color: cyan;
 	background: none;
 
+}
+
+.screenshot p {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.screenshot .Screenshotheading{
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 30px;
 }
 }
 
