@@ -12,6 +12,9 @@ body{
 }
 nav{
 	height: 80px;
+  width: 100%;
+  top: 0;
+  position: fixed;
 	background-color: #24262b;
 	display: flex;
 	align-items: center;
@@ -103,6 +106,10 @@ ul{
     background-color: #24262b;
       padding: 70px 0;
     margin-top: auto;
+    bottom: 0;
+    top: 30;
+    width: 100%;
+    
   }
   .footer-col{
      width: 25%;
@@ -175,10 +182,12 @@ ul{
 		display: block;
 	}
 	.footer-col{
-		display: none;
+		/* display: none; */
 	}
 	#click:checked ~ .menu-btn i:before{
 		content: "\f00d";
+    overflow: hidden;
+    position: fixed;
 	}
 	.nav-links{
 		position: fixed;
@@ -192,8 +201,10 @@ ul{
 		transition: all 0.3s ease;
 	}
 	#click:checked ~ .nav-links{	
-		left: 0%;
+		left: 0%; 
+
 	}
+  
 	
 	.nav-links li{
 		margin: 40px 0;
