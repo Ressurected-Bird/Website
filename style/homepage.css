@@ -9,7 +9,6 @@ body{
   line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 	
-	
 }
 nav{
 	height: 80px;
@@ -31,8 +30,7 @@ nav{
 	list-style: none;
 }
 .nav-links li{
-	margin: 0 6px;
-	
+	margin: 0 6px;	
 }
 .nav-links li a{
 	text-decoration: none;
@@ -40,11 +38,9 @@ nav{
 	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 1px;
-	
 	padding: 5px 8px;
 	border-radius: 5px;
 	transition: all 0.3 ease;
-
 }
 
 .nav-links li a:hover,
