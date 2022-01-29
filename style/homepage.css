@@ -18,6 +18,8 @@ nav{
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 50px 0 50px;
+	position: fixed;
+	width: 100%;
 }
 .logo{
 	font-size: 30px;
@@ -154,6 +156,14 @@ ul{
 	font-weight: bold;
 }
 
+.video {
+	margin-top: 81px;
+  /* display: block; */
+  /* margin: auto; */
+  min-width: 100%;
+  
+  /* min-height: 100%; */
+}
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
@@ -166,21 +176,33 @@ ul{
 }
 
 
-  #myVideo {
-    display: block;
-    margin: auto; 
+  .video {
+	  margin-top: 90px;
+    margin-top: 81px;
+    /* margin: auto;  */
     
   }
 }
 
 
 @media (max-width:840px){
+
 	nav .menu-btn{
 		display: block;
 	}
-	.footer-col{
+	.footer-col h4{
+		position: static;
+		text-decoration: underline;
+		text-decoration-color: #e91e63;
+		text-decoration-thickness: 3px;
+		text-underline-offset: 9px;
+	  }
+	  .footer-col h4::before{
 		display: none;
-	}
+	  }
+	/* .footer-col{
+		display: none;
+	} */
 	#click:checked ~ .menu-btn i:before{
 		content: "\f00d";
 	}
@@ -226,10 +248,4 @@ ul{
 }
 
  
-  #myVideo {
-
-    display: block;
-    margin: auto;
-    min-width: 100%;
-    min-height: 100%;
-  }
+  
