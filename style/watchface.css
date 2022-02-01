@@ -204,9 +204,24 @@ ul{
 
 
 @media (max-width:840px){
-	
+	.footer-col h4{
+		position: static;
+		text-decoration: underline;
+		text-decoration-color: #e91e63;
+		text-decoration-thickness: 3px;
+		text-underline-offset: 9px;
+	  }
+	  .footer-col h4::before{
+		display: none;
+	  } 
+	  nav{
+		width: 100%;
+	  	top: 0;
+	  	position: fixed;
+	  }
 	.heading{
-		text-align: center1;
+		margin-top: 90px;
+		text-align: center;
 	}
 	.subheading{
 margin-left: 20px;
@@ -226,9 +241,7 @@ text-align: center;
 	nav .menu-btn{
 		display: block;
 	}
-	.footer-col{
-		display: none;
-	}
+	
 	#click:checked ~ .menu-btn i:before{
 		content: "\f00d";
 	}

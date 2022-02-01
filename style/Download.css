@@ -8,13 +8,10 @@ body{
   line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 	/* background-color: #DAA625; */
-	
+	;
 }
 nav{
 	height: 80px;
-  width: 100%;
-  top: 0;
-  position: fixed;
 	background-color: #24262b;
 	display: flex;
 	align-items: center;
@@ -94,10 +91,13 @@ ul{
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 18px;
     font-weight: bold;
-    margin: 10px 180px;
+    /* margin: 10px 180px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     cursor: pointer;
   
 
@@ -166,28 +166,45 @@ ul{
     color: #24262b;
     background-color: #ffffff;
   }
-  @media(max-width: 767px){
+   @media(max-width: 767px){
     .footer-col{
       width: 50%;
       margin-bottom: 30px;
+      
   }
   }
   @media(max-width: 574px){
     .footer-col{
       width: 100%;
+      
   }
-}
+} 
 @media (max-width:940px){
-	nav .menu-btn{
+ 
+   .footer-col h4{
+    position: static;
+    text-decoration: underline;
+    text-decoration-color: #e91e63;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 9px;
+  }
+  .footer-col h4::before{
+    display: none;
+  } 
+
+  nav{
+    width: 100%;
+  top: 0;
+  position: fixed;
+  }
+  nav .menu-btn{
 		display: block;
 	}
-	.footer-col{
-		/* display: none; */
-	}
+
 	#click:checked ~ .menu-btn i:before{
 		content: "\f00d";
-    overflow: hidden;
-    position: fixed;
+    
+   
 	}
 	.nav-links{
 		position: fixed;
@@ -202,6 +219,9 @@ ul{
 	}
 	#click:checked ~ .nav-links{	
 		left: 0%; 
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 
 	}
   
@@ -221,18 +241,24 @@ ul{
 }
 .column{
   display: block;
-  margin-left: 90px;
-  margin-right: 90px;
-  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
   width: 80%;
 }
 .Downlaodbtn{
   display: block;
-  margin-left: 90px;
-  margin-right: 90px;
+  /* margin-left: 90px; */
+  /* margin-right: 90px; */
+  margin-left: auto;
+  margin-right: auto;
   cursor: pointer;
   margin-top: 10px;
-  width: 50%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;  
 }
 }
   /* @media screen and (max-width: 600px) {
