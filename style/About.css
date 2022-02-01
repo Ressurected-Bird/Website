@@ -179,12 +179,26 @@ ul{
 
 
 @media (max-width:840px){
+	.footer-col h4{
+		position: static;
+		text-decoration: underline;
+		text-decoration-color: #e91e63;
+		text-decoration-thickness: 3px;
+		text-underline-offset: 9px;
+	  }
+	  .footer-col h4::before{
+		display: none;
+	  } 
+	  nav{
+		width: 100%;
+	  	top: 0;
+	  	position: fixed;
+	  }
+	  
 	nav .menu-btn{
 		display: block;
 	}
-	.footer-col{
-		display: none;
-	}
+	
 	#click:checked ~ .menu-btn i:before{
 		content: "\f00d";
 	}
@@ -220,6 +234,7 @@ ul{
 .about_us{
     background-color: yellow;
     margin-left: 10px;
+	margin-top: 100px;
     margin-right: 10px;
     height: 800px;
     
