@@ -25,6 +25,7 @@ body{
 .featureslist{
   margin-left: 50px;
   margin-top: 50px;
+  padding-bottom: 30px;
 }
 .featureslist li{ 
   list-style-type: decimal; 

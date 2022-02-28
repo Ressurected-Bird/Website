@@ -28,3 +28,11 @@
     background-image: linear-gradient(to bottom, #009dff, #3498db);
     text-decoration: none;
   }
+
+  @media (max-width:940px){
+    .form{
+      text-align: center;
+      margin: 30px auto 10px auto;
+      width: 80%;
+    }
+  }
