@@ -11,6 +11,8 @@ nav{
 	font-size: 30px;
 	color: white;
 	font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
 }
 .nav-links{
 	display: flex;
