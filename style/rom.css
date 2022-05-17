@@ -10,7 +10,81 @@ body{
 	/* background-color: #DAA625; */
 	;
 }
-.img{
-    height: 100px;
-    width: 100px;
+
+.imgrow{
+margin: 20px auto 10px;
+  width: 80%;
+  padding: 20px;
+  display: flex;
+	
 }
+ /* .imgcolumn {
+  
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+  }  */
+   img{
+    text-align: center;
+    padding: 30px;
+    height: 350px;
+    
+    
+  } 
+
+  .Downlaodbtn{
+    background-color: #2559da;;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    /* margin: 10px 180px; */
+    margin: 10px auto 10px auto;
+    width: 50%;
+    cursor: pointer;
+  
+
+  }
+
+
+@media (max-width:940px){
+ 
+  .imgrow{
+    display: block;
+    margin: auto;
+    width: 70%;
+    /* border: 3px solid green; */
+    padding-top: 100px;
+  }
+  .imgcolumn {
+    
+      width: 70%;
+      margin: auto;
+      padding: 5px;
+    }
+    img{
+      padding-top: 10px;
+      text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
