@@ -8,6 +8,6 @@ A Repository that contain  Webiste and Asset and Html Files
 # Tech Stack 
 | Frontend | UI UX DESGIN TOOL | Blogging Platfrom|  Hosting Platfrom |
 | ------------- | ------------- | ------------- | --------------------|
-|  Bootstrap   |   Adobe XD    |   Hashnode      |    Netlify
+|  React  |   Adobe XD    |   Hashnode      |    Netlify
 
 
