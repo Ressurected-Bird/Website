@@ -13,64 +13,64 @@ body{
 
 .Developer a{
   display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color:rgb(205, 208, 209);
-	margin:0 10px 10px 0;
+	height: 55px;
+	width: 55px;
+	font-size: 40px;
+	margin:0 5px 5px 0;
 	text-align: center;
-	line-height: 40px;
+	line-height: 55px;
 	border-radius: 50%;
-	color: red;
+	color: rgb(255, 0, 64);
 	transition: all 0.5s ease;
 }
 
 .Developer a:hover{
-	background-color: red;
+	background-color: rgb(255, 0, 76);;
 	color: white;
 }
 
 .h1heading{
-    font-size: 50px;
-    text-align: center;
-    color: #2559da;
+    font-size: 40px;
+    margin-left: 5rem;
+    color: #121213;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
 }
 section { 
-    display: block;
+     
      text-align: center;
+     width: 20rem;
+     margin-right: 5rem;
+     margin-left: 5rem;
   }
 section img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    width: 15%;
+  margin-bottom: 10px; 
+  border-radius: 50%;
+  
+  width: 10rem
   }
 
 section h2{
       text-align: center;
       margin-top: 10px;
-      color: rgb(0, 47, 255);
+      
   }
 section  h3{
     text-align: center;
     margin-top: 10px;
     color: black;
 }
-section a{
-    color:blue;
-}
+
 section h4{
     text-align: center;
     color: black;
-    margin-bottom: 40px;
+    
 
 }
   
   @media (max-width:840px){
 	
-.h1heading{
-	margin-top: 90px;
-}
+
 	section img {
 		width: 50%;
 		height: 50%;
@@ -84,3 +84,16 @@ section h4{
 	
   
   }
+
+.teamsection{
+  margin-left: 5rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 5rem;
+
+}
+
+.team1{
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
