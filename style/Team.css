@@ -12,48 +12,62 @@ body{
 }
 
 .Developer a{
-  display: inline-block;
-	height: 55px;
-	width: 55px;
-	font-size: 40px;
-	margin:0 5px 5px 0;
+
+
+  display: block;
+  height: 55px;
+  width: 55px;
+  font-size: 40px;
+  margin: auto;
 	text-align: center;
 	line-height: 55px;
 	border-radius: 50%;
-	color: rgb(255, 0, 64);
+	color: rgb(255,0,64);
+
 	transition: all 0.5s ease;
 }
 
 .Developer a:hover{
-	background-color: rgb(255, 0, 76);;
+
+	background-color: rgb(255,0,64);
+
 	color: white;
 }
 
 .h1heading{
     font-size: 40px;
-    margin-left: 5rem;
-    color: #121213;
-    margin-top: 3rem;
-    margin-bottom: 0.5rem;
+
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+   text-align: center;
+    margin-top: 8rem;
+    
 }
 section { 
+   
+    
+    max-width: 21rem;
+    margin: auto;
+    margin-top: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    
      
-     text-align: center;
-     width: 20rem;
-     margin-right: 5rem;
-     margin-left: 5rem;
   }
 section img {
-  margin-bottom: 10px; 
-  border-radius: 50%;
-  
-  width: 10rem
+   margin-bottom: 10px;
+    border-radius: 50%;
+    max-width:11rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+
   }
 
 section h2{
       text-align: center;
       margin-top: 10px;
-      
+
+  
   }
 section  h3{
     text-align: center;
@@ -67,33 +81,59 @@ section h4{
     
 
 }
-  
-  @media (max-width:840px){
-	
 
-	section img {
-		width: 50%;
-		height: 50%;
-	}
-	section h4{
-		text-align: center;
-		margin-left: 30px;
-		margin-right: 30px;
 
-	}
-	
-  
+
+
+@media screen and (min-width:820px) {
+  .team2{
+    display:flex;
   }
-
-.teamsection{
-  margin-left: 5rem;
-  font-family: 'Times New Roman', Times, serif;
-  margin-right: 5rem;
-
 }
 
-.team1{
-  display: flex;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+@media screen and (min-width:1580px) {
+  .team1{
+    display: flex;
+  }
+  section{
+    width: 16rem;
+    margin: 3rem 5rem 1rem 5rem;
+  }
+  section img {
+    margin-bottom: 10px;
+     border-radius: 50%;
+     width:10rem;
+     margin-left: 3rem;
+     margin-right: 3rem;
+ 
+     
+   }
+   .h1heading{
+     margin-left: 10rem;
+     text-align: left;
+     margin-top:5rem;
+   }
+}
+
+@media screen and (min-width:1650px) {
+  section{
+    width: 16rem;
+    margin: 3rem 5rem 1rem 5rem;
+  }
+  section img {
+    margin-bottom: 10px;
+     border-radius: 50%;
+     width:10rem;
+     margin-left: 3rem;
+     margin-right: 3rem;
+ 
+     
+   }
+   .teamsection{
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+   }
+   
+
 }
