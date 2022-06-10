@@ -37,7 +37,7 @@ body{
 .h1heading{
     font-size: 40px;
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     color: #000000;
    text-align: center;
     margin-top: 8rem;
@@ -49,7 +49,7 @@ section {
     max-width: 21rem;
     margin: auto;
     margin-top: 5rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     
      
   }
