@@ -26,6 +26,14 @@ margin: 20px auto 10px;
   }
   img{
     text-align: center;
+    
+  }
+  .column {
+
+  }
+  .image{
+    width: 30px;
+    height: 290px;
   }
 
   .Downlaodbtn{
@@ -40,10 +48,8 @@ margin: 20px auto 10px;
     font-weight: bold;
     /* margin: 10px 180px; */
     margin: 10px auto 10px auto;
-    width: 50%;
+    width: 60%;
     cursor: pointer;
-  
-
   }
 
 
