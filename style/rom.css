@@ -27,10 +27,14 @@ margin: 20px auto 10px;
    img{
     text-align: center;
     padding: 30px;
-    height: 350px;
+    height: 400px;
+    width: 400px;
     
     
   } 
+  .column{
+    margin: 10px auto 10px auto; 
+  }
 
   .Downlaodbtn{
     background-color: #2559da;;
