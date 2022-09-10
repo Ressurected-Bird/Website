@@ -26,6 +26,10 @@ margin: 20px auto 10px;
   }
   img{
     text-align: center;
+    height: 400px;
+    width: 100px;
+    padding: 30px;
+    margin: 30px;
     
   }
   .column {
