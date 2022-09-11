@@ -13,14 +13,21 @@ body{
 }
 
 .about_us{
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-top: 40px;
     margin-left: 250px;
     margin-right: 250px;
     margin-bottom: 20px;
-    height: 600px;
+    /* height: 600px; */
+    /* display: flex;
+    justify-content: center; */
     
 }
+
+/* .vision {
+    justify-content: center;
+} */
+
 .about_us .aboutimage{
     height: 40px;
     width: 40px;
