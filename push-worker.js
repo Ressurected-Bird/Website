@@ -1,4 +1,4 @@
-self[`appKey`] = `0e629e477ddde8e519300be93d82f846`;
+self[`appKey`] = `1b43ccbb50f1e6b886c575d199348c5a`;
 self[`hostUrl`] = `https://cdn.gravitec.net/sw`;
 self.importScripts(`${self[`hostUrl`]}/worker.js`);
 // uncomment and set path to your service worker
