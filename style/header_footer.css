@@ -214,3 +214,16 @@ ul{
 
 }
 }
+
+.mwl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.mwl .heart {
+  color: red;
+}
