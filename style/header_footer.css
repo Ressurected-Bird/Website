@@ -6,6 +6,7 @@ nav{
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 50px 0 50px;
+ 
 }
 .logo{
 	font-size: 30px;
@@ -70,6 +71,7 @@ ul{
     top: 30;
     width: 100%;
     margin-top: 20px;
+ 
     
   }
   .footer-col li a.active1{
