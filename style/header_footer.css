@@ -60,6 +60,7 @@ nav .menu-btn{
 .container{
 	max-width: 1170px;
 	margin:auto;
+  padding: 70px;
 }
 .row{
 	display: flex;
@@ -74,7 +75,6 @@ ul{
 
 .footer{
     background-color: #24262b;
-      padding: 70px 0;
     margin-top: auto;
     bottom: 0;
     top: 30;
@@ -220,6 +220,7 @@ ul{
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  padding-bottom: 10px;
   color: #ffffff;
   font-size: 20px;
 }
