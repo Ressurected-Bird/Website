@@ -13,9 +13,9 @@ body{
 
 .imgrow{
 margin: 20px auto 10px;
-  width: 80%;
+  width: 30%;
   padding: 10px;
-  display: flex;
+  display: block;
 	
 }
 .imgcolumn {
