@@ -14,10 +14,13 @@ body{
 
 .about_us{
     /* background-color: yellow; */
-    margin-top: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 20px;
+    margin: 50px auto 40px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 70%;
+    padding: 50px;
+    word-spacing: 2px;
+    line-height: 1.8;
     /* height: 600px; */
     /* display: flex;
     justify-content: center; */
