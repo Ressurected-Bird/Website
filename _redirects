@@ -2,5 +2,5 @@
 /roms    /rom 
 /downloads  /download
 /      /404.html   404
-/sitemap.xml    /404.html 
-/robots.txt     /404.html
+/sitemap    /404.html 
+/robots     /404.html
