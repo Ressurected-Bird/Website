@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>    <link rel="stylesheet" href="style/create_an_account.css" />  
+    <title>Create an Account</title>
+</head>
+<body>
+    
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+
+
+
+
+
+
+
+
+    <a class="cross" href="login.html"><i class="fa-sharp fa-solid fa-xmark fa-4x"></i></a>
+
+    <div class="account_box">
+        <img class="image" src="images/logo/logo.jpg" alt="" />
+        <p class="headtext">Creare an Account</p>
+  
+        <form action="/action_page.php">
+          <label class="ptext" for="fname">Full Name</label><br />
+          <input
+            class="intxt"
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Enter Your Full Name"
+            required
+          /><br /><br />
+          <label class="ptext" for="email">Email</label><br />
+          <input
+            class="intxt"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Your Email"
+            required
+          /><br /><br />
+          <label class="ptext" for="password">Password</label><br />
+          <input
+            class="intxt"
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter Your Password"
+            required
+          /><br /><br />
+          <label class="ptext" for="password">Confirm Password</label><br />
+          <input
+            class="intxt"
+            type="password"
+            id="Confirm_password"
+            name="Confirm_password"
+            placeholder="Enter Your Password Again"
+            required
+          /><br /><br />
+          <p class="termand">
+            By continuing your indicate that you agree to RessurectedBird's
+            <a class="link" href="#">term of service</a> and
+            <a class="link" href="#"> Privacy Policy</a>
+          </p>
+          <div class="container">
+            <button type="submit" id="btn" class="sumbit_btn" onclick="register()">Sign up</button>
+          </div>
+        </form>
+
+        <p class="termand othertxt">or Continue With</p>
+      <div class="container">
+        <button class="">google</button>
+      </div>
+      <p class="alreadyaccount">
+        Already have an account? <a class="link" href="login.html">Log In</a>
+      </p>
+      
+</body>
+<script src="password.js">
+
+</script>
+</html>
