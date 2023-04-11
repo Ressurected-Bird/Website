@@ -1,0 +1,90 @@
+body{
+    background-color: #f7f7f7;
+}
+.data{
+    display: none;
+}
+.account_box{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: rgb(9, 155, 228);
+    border-width: 5px;
+    
+}
+
+.container{  
+text-align: center;   
+height: 50px; 
+ 
+/* padding-top: 10px;   */
+}  
+#btn{  
+font-size: 20px;  
+}  
+.othertxt{
+    text-align: center;
+}
+.googlebtn{
+    margin-left: 40%;
+    margin-right: 40%;
+    }
+.sumbit_btn{
+    background: linear-gradient(90deg,#4b42e1,#b526d7);
+    text-align: center;
+    padding: 8px 120px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.alreadyaccount{
+    text-align: center;
+}
+.termand{
+    margin: 0px 50px 30px 90px;
+    text-align: center;
+    color: #646363;
+
+    
+}
+.link{
+    color: #0ca2f3;
+}
+.cross{
+    float: right;
+    padding: 10px;
+    margin: 30px 60px 0 0;
+}
+.image{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}    
+.headtext{
+    font-size: 20px;
+    margin-left: 40%;
+    font-weight: 700;
+}    
+.ptext{
+    font-weight: 500;
+    margin: 10px 15% 0px 15%;
+}
+.intxt{
+    align-items: center;
+    width: 70%;
+    padding: 10px;
+    margin: 5px 15% 5px 15%;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+
