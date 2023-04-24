@@ -3,5 +3,5 @@
 /downloads  /download
       /404.html   404
 /     /index.html
-/sitemap    /404.html 
-/robots     /404.html
+/sitemapxml    /404.html 
+/robots.txt     /404.html
