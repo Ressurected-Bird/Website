@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Embedded Google Form</title>
+<style>
+/* CSS for adjusting the iframe size */
+.embed-responsive {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    position: relative;
+}
+
+.embed-responsive iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+
+<div class="embed-responsive">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScqDTYJ0LSbUOvp-dC_81Es7bqbAaWwsWkg5xj_bw_2VgyK2g/viewform" frameborder="0" width="640" height="600" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">Loading...</iframe>
+</div>
+
+</body>
+</html>
