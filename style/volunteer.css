@@ -1,0 +1,18 @@
+.embed-responsive {
+    overflow: hidden;
+    height: 100vh;
+    overflow: none;
+    padding-top: 56.25%; 
+    margin: 0 0 10px 0;
+    
+    position: relative;
+    
+}
+
+.embed-responsive iframe {
+    border: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
