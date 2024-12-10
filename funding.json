@@ -6,7 +6,7 @@
         "name": "resurrectedbird",
         "email": "ressurectedbird@gmail.com",
         "phone": "919577772474",
-        "description": "Building Open Source Custom ROM for Gaming and Cybersecurity and other digital products",
+        "description": "Welcome to resurrectedbird – the heart of innovation, where we build groundbreaking open-source projects designed to empower both the gaming and cybersecurity communities. Our custom ROM offers an unmatched gaming experience while enhancing device security, all powered by our commitment to freedom, privacy, and cutting-edge technology. Join us on this mission to reshape the digital landscape.",
         "webpageUrl": {
             "url": "https://ressurectedbird.co.in",
             "wellKnown": ""
@@ -16,7 +16,7 @@
         {
             "guid": "custom-rom",
             "name": "Custom ROM for Gaming & Cybersecurity",
-            "description": "An open-source custom ROM aimed at enhancing gaming and cybersecurity features for mobile devices.",
+            "description": "Step into a new era of mobile technology with our open-source custom ROM, designed to deliver top-tier performance for gaming enthusiasts and reinforce security for all your devices. With our ROM, you get the perfect blend of speed, security, and reliability, giving you more power and control than ever before. Whether you’re looking to take your gaming experience to the next level or protect your data, this ROM is tailored to meet your every need.",
             "webpageUrl": {
                 "url": "https://ressurectedbird.netlify.app/rom"
             },
@@ -29,66 +29,66 @@
         {
             "guid": "router-exploit",
             "name": "RouterExpoilt",
-            "description": "A tool designed to exploit vulnerabilities in home and small office routers.",
+            "description": "Uncover hidden vulnerabilities and strengthen your network security with RouterExpoilt. This powerful tool is specifically designed to identify and exploit weaknesses in home and small office routers. With RouterExpoilt, you can ensure that your network is impenetrable, protecting your devices and data from unauthorized access. Empower yourself with the knowledge and tools to secure your digital space.",
             "webpageUrl": {
                 "url": "https://application-payout.vercel.app/REcheckout.html"
             },
             "repositoryUrl": {
                 "url": "https://github.com/resurrectedbird/router-exploit"
             },
-            "licenses": ["spdx:MIT"],
+            "licenses": ["spdx:GPL-3.0"],
             "tags": ["security", "networking", "exploits"]
         },
         {
             "guid": "web-penetrate",
             "name": "Web Penetrate",
-            "description": "A penetration testing tool for discovering vulnerabilities in web applications.",
+            "description": "Unlock the full potential of web security testing with Web Penetrate. This comprehensive penetration testing tool is built to help you uncover critical vulnerabilities in web applications, ensuring that your websites and services remain protected from the latest threats. With a user-friendly interface and robust features, Web Penetrate is the ultimate tool for developers, security researchers, and organizations who take web security seriously.",
             "webpageUrl": {
                 "url": "https://application-payout.vercel.app/WPcheckout.html"
             },
             "repositoryUrl": {
                 "url": "https://github.com/resurrectedbird/web-penetrate"
             },
-            "licenses": ["spdx:MIT"],
+            "licenses": ["spdx:GPL-3.0"],
             "tags": ["security", "pentesting", "web"]
         },
         {
             "guid": "hawkosnit",
             "name": "Hawkosnit",
-            "description": "A high-performance tool for network traffic analysis and intrusion detection.",
+            "description": "Dive deep into your network’s traffic with Hawkosnit, a high-performance tool that provides real-time analysis and intrusion detection. This cutting-edge tool empowers you to monitor, detect, and respond to potential security threats in your network with nanosecond precision. Hawkosnit is a must-have for anyone serious about securing their infrastructure and staying ahead of the ever-evolving landscape of cyber threats.",
             "webpageUrl": {
                 "url": "https://application-payout.vercel.app/HKcheckout.html"
             },
             "repositoryUrl": {
                 "url": "https://github.com/resurrectedbird/hawkosnit"
             },
-            "licenses": ["spdx:MIT"],
+            "licenses": ["spdx:GPL-3.0"],
             "tags": ["security", "networking", "monitoring"]
         },
         {
             "guid": "adb-exploit",
             "name": "Adb Expoilt",
-            "description": "A tool for exploiting vulnerabilities in Android Debug Bridge (ADB) for remote access.",
+            "description": "Gain unprecedented control over Android devices with Adb Expoilt. This powerful tool exploits vulnerabilities in Android Debug Bridge (ADB) to give you remote access to any device. Whether you're a developer looking to test your own systems or a security researcher, Adb Expoilt provides you with the capabilities to conduct in-depth security assessments on Android-based devices.",
             "webpageUrl": {
                 "url": "https://application-payout.vercel.app/ADBcheckout.html"
             },
             "repositoryUrl": {
                 "url": "https://github.com/resurrectedbird/adb-exploit"
             },
-            "licenses": ["spdx:MIT"],
+            "licenses": ["spdx:GPL-3.0"],
             "tags": ["security", "android", "exploits"]
         },
         {
             "guid": "cache-crips",
             "name": "Cache Crips",
-            "description": "A tool to analyze and exploit cache-related vulnerabilities in web applications and networks.",
+            "description": "Revolutionize your web and network security with Cache Crips, a powerful tool designed to analyze and exploit cache-related vulnerabilities. Whether you're optimizing performance or testing security, Cache Crips allows you to dig deep into your cache systems and identify weaknesses that could be exploited. Secure your systems with this essential tool, and ensure your web applications remain safe from potential cache-based attacks.",
             "webpageUrl": {
                 "url": "https://application-payout.vercel.app/CacheCripsCheckout.html"
             },
             "repositoryUrl": {
                 "url": "https://github.com/resurrectedbird/cache-crips"
             },
-            "licenses": ["spdx:MIT"],
+            "licenses": ["spdx:GPL-3.0"],
             "tags": ["security", "web", "cache"]
         }
     ],
@@ -98,7 +98,7 @@
                 "guid": "mybank",
                 "type": "bank",
                 "address": "",
-                "description": "Will accept direct bank transfers. Please e-mail me for details."
+                "description": "Support our mission by contributing through direct bank transfers. Please email us for payment details, and make a difference in the sustainability of our open-source projects."
             }
         ],
         "plans": [
@@ -106,7 +106,7 @@
                 "guid": "domain-yearly",
                 "status": "active",
                 "name": "Domain Support",
-                "description": "This support is for domain",
+                "description": "Support our open-source mission by contributing to the Domain Support plan. Your contribution goes directly towards maintaining our domain registration and hosting services, ensuring that we can continue to innovate, improve, and make our custom ROM and tools accessible to everyone, everywhere. By contributing, you empower us to provide high-quality, free, and open-source solutions that benefit the entire community. Together, we can reshape the future of digital freedom.",
                 "amount": 7,
                 "currency": "USD",
                 "frequency": "annually",
