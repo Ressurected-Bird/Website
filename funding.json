@@ -1,0 +1,39 @@
+{
+    "version": "v1.0.0",
+    "entity": {
+        "type": "Organisation",
+        "role": "Project Lead",
+        "name": "Resurrectedbird",
+        "email": "ressurectedbird@gmail.com",
+        "phone": "919577772474",
+        "description": "Building Open Source Custom ROM for Gaming and Cybersecurity and other digital products",
+        "webpageUrl": {
+            "url": "https://ressurectedbird.co.in",
+            "wellKnown": ""
+        }
+    },
+    "projects": [],
+    "funding": {
+        "channels": [
+            {
+                "guid": "mybank",
+                "type": "bank",
+                "address": "",
+                "description": "Will accept direct bank transfers. Please e-mail me for details."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "domain-yearly",
+                "status": "active",
+                "name": "Domain Support",
+                "description": "This support is for domain",
+                "amount": 7,
+                "currency": "USD",
+                "frequency": "annually",
+                "channels": ["mybank"]
+            }
+        ],
+        "history": []
+    }
+}
