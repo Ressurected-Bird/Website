@@ -1,9 +1,8 @@
 [build]
-  publish = "."
-  # Do not set node_version here, use environment instead
+  publish = "." # root folder (your index.html is here)
 
 [context.production.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "18" # explicitly tell Netlify to use Node 18
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
