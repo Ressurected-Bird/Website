@@ -14,3 +14,44 @@
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
+
+  [[redirects]]
+  from = "/home"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/roms"
+  to = "/rom"
+  status = 200
+
+[[redirects]]
+  from = "/downloads"
+  to = "/download"
+  status = 200
+
+[[redirects]]
+  from = "/404.html"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/robots.txt"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/Team.html"
+  to = "/404.html"
+  status = 404
+
