@@ -1,5 +1,6 @@
 [build]
-  publish = "." # root directory, where index.html is located
+  publish = "."
+  # Do not set node_version here, use environment instead
 
 [context.production.environment]
   NODE_VERSION = "18"
