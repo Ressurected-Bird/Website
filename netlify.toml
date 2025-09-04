@@ -1,6 +1,8 @@
 [build]
-  publish = "dist" # or your output folder
-  node_version = "18"
+  publish = "." # root directory, where index.html is located
+
+[context.production.environment]
+  NODE_VERSION = "18"
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
