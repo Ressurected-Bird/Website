@@ -1,11 +1,13 @@
 [build]
-  publish = "." # root folder (your index.html is here)
+  publish = "."
 
 [context.production.environment]
-  NODE_VERSION = "18" # explicitly tell Netlify to use Node 18
+  NODE_VERSION = "18"
 
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
+# Disable Lighthouse in production for faster deploys
+[context.deploy-preview]
+  [[plugins]]
+    package = "@netlify/plugin-lighthouse"
 
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
