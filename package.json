@@ -2,11 +2,13 @@
   "name": "website",
   "version": "1.0.0",
   "engines": {
-    "node": ">=14.15.0 <20.0.0"
+    "node": "18.x",
+    "npm": ">=8.0.0"
   },
   "scripts": {
-    "build": "echo 'Build completed'",
-    "start": "echo 'Starting server'"
+    "build": "echo 'Build completed - static files ready'",
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
   },
   "dependencies": {
     "firebase": "^11.0.0"
