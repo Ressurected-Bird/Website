@@ -1,21 +1,13 @@
+[build.environment]
+  NODE_VERSION = "18.19.0"  # Specific version
+  NPM_FLAGS = "--production"
+
 [build]
   publish = "."
+  command = "npm run build"
 
-[context.production.environment]
-  NODE_VERSION = "18"
-
-# Disable Lighthouse in production for faster deploys
-[context.deploy-preview]
-  [[plugins]]
-    package = "@netlify/plugin-lighthouse"
-
-[[plugins]]
-  package = "netlify-plugin-submit-sitemap"
-
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
-
-  [[redirects]]
+# Clean redirect configuration
+[[redirects]]
   from = "/home"
   to = "/index.html"
   status = 200
@@ -31,27 +23,15 @@
   status = 200
 
 [[redirects]]
-  from = "/404.html"
-  to = "/404.html"
-  status = 404
-
-[[redirects]]
   from = "/"
   to = "/index.html"
   status = 200
 
 [[redirects]]
-  from = "/sitemap.xml"
+  from = "/*"
   to = "/404.html"
   status = 404
 
-[[redirects]]
-  from = "/robots.txt"
-  to = "/404.html"
-  status = 404
-
-[[redirects]]
-  from = "/Team.html"
-  to = "/404.html"
-  status = 404
-
+# Only enable plugins that are essential and compatible
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
