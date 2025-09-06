@@ -1,8 +1,8 @@
-/home        /index.html      200
-/roms        /rom            301
-/downloads   /download       301
-/404.html    /404.html       404
-/            /index.html     200
-/sitemap.xml /404.html       404
-/robots.txt  /404.html       404
-/team.html   /404.html       404
+/home  /index.html 
+/roms    /rom 
+/downloads  /download
+      /404.html   404
+/     /index.html
+/sitemap.xml   /404.html 
+/robots.txt     /404.html
+/Team.html      /404.html   
