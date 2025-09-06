@@ -1,4 +1,13 @@
 {
+  "name": "website",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=14.15.0 <20.0.0"
+  },
+  "scripts": {
+    "build": "echo 'Build completed'",
+    "start": "echo 'Starting server'"
+  },
   "dependencies": {
     "firebase": "^11.0.0"
   }
