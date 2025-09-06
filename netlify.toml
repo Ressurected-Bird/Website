@@ -1,12 +1,18 @@
 [build.environment]
-  NODE_VERSION = "18.19.0"  # Specific version
-  NPM_FLAGS = "--production"
+  NODE_VERSION = "18.19.1"
+  # Disable plugin loading
+  NETLIFY_EXPERIMENTAL_BUILD_PLUGINS_API = "false"
+  # Skip problematic plugins
+  NETLIFY_SKIP_PLUGINS = "@netlify/plugin-lighthouse,netlify-plugin-submit-sitemap,@netlify/plugin-sitemap"
 
 [build]
   publish = "."
   command = "npm run build"
 
-# Clean redirect configuration
+# EXPLICITLY override any plugins with empty list
+plugins = []
+
+# Redirects only
 [[redirects]]
   from = "/home"
   to = "/index.html"
@@ -31,7 +37,3 @@
   from = "/*"
   to = "/404.html"
   status = 404
-
-# Only enable plugins that are essential and compatible
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
