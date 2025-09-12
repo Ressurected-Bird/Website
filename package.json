@@ -11,6 +11,6 @@
     "dev": "python3 -m http.server 8000"
   },
   "dependencies": {
-    "firebase": "^11.0.0"
+    "firebase": "^11.10.0"
   }
 }
