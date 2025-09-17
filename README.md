@@ -8,5 +8,5 @@ A Repository that contain  Webiste and Asset and Html Files
 | Frontend | UI UX DESGIN TOOL | Blogging Platfrom|  Hosting Platfrom |
 | ------------- | ------------- | ------------- | --------------------|
 |  React  |   Adobe XD    |   Hashnode      |    Netlify
-
+| ---------------------------------------------------------------------
 
