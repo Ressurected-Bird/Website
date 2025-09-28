@@ -1,53 +1,36 @@
 # Pull Request Template
 
-## 🙋 Contributor Information
-Please fill out the following details (Required for first-time contributors):
-
-- **Full Name:**  
-- **College / University:**  
-- **Country:**  
-- **Are you from a STEM background?** (Yes/No)  
-- **Engineering Trade / Major (if applicable):**  
+Thank you for contributing! Please fill out the following information before submitting your pull request.
 
 ---
 
-## 📝 Description
-Describe the changes you are proposing.  
-Mention the issue number if this PR addresses it.  
-Fixes # (issue number)
+## Personal Information 
+
+- **Full Name:** 
+- **Email Address:** 
+- **GitHub Username:** 
+- **College / Organization:** 
+- **Country:** 
+- **Are you STEM? (Yes/No):** 
+- **Engineering Trade / Field:** 
 
 ---
 
-## 🔧 Type of Change
-Select all that apply:
+## Description of Changes
 
-- [ ] Bug fix (non-breaking change which fixes an issue)  
-- [ ] New feature (non-breaking change which adds functionality)  
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)  
-- [ ] Documentation update  
-- [ ] Refactor / Code cleanup  
+Describe the changes you have made and the purpose of this PR.
 
----
+## Type of Change
+- [ ] Bug fix
+- [ ] Feature addition
+- [ ] Documentation update
+- [ ] Other
 
-## ✅ Checklist
-- [ ] My code follows the repository’s style guidelines  
-- [ ] I have performed a self-review of my code  
-- [ ] I have commented my code where necessary  
-- [ ] I have added tests (if required)  
-- [ ] All tests pass locally  
-- [ ] Any dependent changes have been merged  
+## Checklist
+- [ ] My code follows the repository guidelines
+- [ ] I have tested my changes locally
+- [ ] I have added necessary documentation
 
 ---
 
-## 📸 Screenshots (if applicable)
-(Add screenshots here if your PR changes UI or adds a visual element)
-
----
-
-## 🔗 Related Issues / PRs
-Link any related issues or PRs here.  
-
----
-
-## ❓ Additional Notes
-Any other information or context about the PR.
+Once completed, submit the PR and tag @Deadshot0x7 for review and merge.
