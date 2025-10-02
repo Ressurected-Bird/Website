@@ -381,4 +381,17 @@ section h4{
     button:hover {
     background: #26a9e0;
     }
+
+	 .mwl {
+  text-align: center;   
+  color: white;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.mwl .heart {
+  color: red;
+  font-size: 20px;
+}
+	
         
