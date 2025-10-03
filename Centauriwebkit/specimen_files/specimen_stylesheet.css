@@ -430,6 +430,34 @@ code {
 	margin-bottom: 18px;
 }
 
+.sidebar-menu li a {
+    display: block;
+    color: #111; 
+    background-color: #fff; 
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar-menu li a:hover,
+.sidebar-menu li a:focus {
+    color: #fff; 
+    background-color: #1883ba;
+}
+
+
+.sidebar-menu li.active a {
+	color: #000;
+	font-weight: bold;
+	border-left: 3px solid #1883ba;
+	padding-left: 12px;
+}
+
+.sidebar-menu li {
+	margin: 10px 0;
+}
+
 /* @end */
 
 /* @group Glyphs */
