@@ -1,9 +1,5 @@
 @import url('grid_12-825-55-15.css');
 
-/*  
-	CSS Reset by Eric Meyer - Released under Public Domain
-    http://meyerweb.com/eric/tools/css/reset/
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -106,11 +102,10 @@ h2 {
 	font:           10px Arial, sans-serif;
 }
 
-/* Sidebar Menu Fixes */
 .sidebar-menu li a {
 	display: block;
-	color: #333;              /* Darker text for better readability */
-	font-size: 16px;          /* Accessible size */
+	color: #333;
+	font-size: 16px;
 	font-weight: 500;
 	padding: 10px 15px;
 	transition: all 0.2s ease-in-out;
@@ -118,8 +113,8 @@ h2 {
 
 .sidebar-menu li a:hover,
 .sidebar-menu li a:focus {
-	color: #1883ba;           /* Accent color */
-	background-color: #f5f5f5; /* Highlight background */
+	color: #1883ba;
+	background-color: #f5f5f5;
 }
 
 .sidebar-menu li.active a {
@@ -133,7 +128,6 @@ h2 {
 	margin: 10px 0;
 }
 
-/* Tabs */
 .tabs {
 	width:            100%;
 	height:           31px;
@@ -317,7 +311,6 @@ code {
 .verdanabody { font-family: Verdana; position: relative; }
 .georgiabody { font-family: Georgia; position: relative; }
 
-/* Layout page */
 #layout h1 {
 	font-size:   36px;
 	line-height: 42px;
@@ -366,7 +359,6 @@ code {
 	margin-bottom: 18px;
 }
 
-/* Glyphs */
 #glyph_chart div {
 	background-color: #d9f3ff;
 	color:            black;
@@ -399,7 +391,6 @@ code {
 	font-family: Arial, sans-serif;
 }
 
-/* Installing */
 #installing {
 	font: 13px Arial, sans-serif;
 }
