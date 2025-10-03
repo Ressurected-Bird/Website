@@ -56,7 +56,6 @@ table {
 	border-spacing:  0;
 }
 
-
 body {
 	color:            #000;
 	background-color: #dcdcdc;
@@ -83,7 +82,6 @@ h2 {
 	margin: 0px auto;
 }
 
-
 #header {
 	padding:          20px;
 	font-size:        36px;
@@ -100,7 +98,6 @@ h2 {
 	padding:          60px 20px 20px;
 }
 
-
 #footer p {
 	margin:         0;
 	padding-top:    10px;
@@ -109,6 +106,34 @@ h2 {
 	font:           10px Arial, sans-serif;
 }
 
+/* Sidebar Menu Fixes */
+.sidebar-menu li a {
+	display: block;
+	color: #333;              /* Darker text for better readability */
+	font-size: 16px;          /* Accessible size */
+	font-weight: 500;
+	padding: 10px 15px;
+	transition: all 0.2s ease-in-out;
+}
+
+.sidebar-menu li a:hover,
+.sidebar-menu li a:focus {
+	color: #1883ba;           /* Accent color */
+	background-color: #f5f5f5; /* Highlight background */
+}
+
+.sidebar-menu li.active a {
+	color: #000;
+	font-weight: bold;
+	border-left: 3px solid #1883ba;
+	padding-left: 12px;
+}
+
+.sidebar-menu li {
+	margin: 10px 0;
+}
+
+/* Tabs */
 .tabs {
 	width:            100%;
 	height:           31px;
@@ -134,7 +159,6 @@ h2 {
 
 .tabs li a:hover {
 	background-color: #00b3ff;
-
 }
 
 .tabs li.active a {
@@ -142,9 +166,7 @@ h2 {
 	background-color: #fff;
 }
 
-
 div.huge {
-
 	font-size:      300px;
 	line-height:    1em;
 	padding:        0;
@@ -157,86 +179,26 @@ div.glyph_range {
 	line-height: 1.1em;
 }
 
-.size10 {
-	font-size: 10px;
-}
+.size10 { font-size: 10px; }
+.size11 { font-size: 11px; }
+.size12 { font-size: 12px; }
+.size13 { font-size: 13px; }
+.size14 { font-size: 14px; }
+.size16 { font-size: 16px; }
+.size18 { font-size: 18px; }
+.size20 { font-size: 20px; }
+.size24 { font-size: 24px; }
+.size30 { font-size: 30px; }
+.size36 { font-size: 36px; }
+.size48 { font-size: 48px; }
+.size60 { font-size: 60px; }
+.size72 { font-size: 72px; }
+.size90 { font-size: 90px; }
 
-.size11 {
-	font-size: 11px;
-}
-
-.size12 {
-	font-size: 12px;
-}
-
-.size13 {
-	font-size: 13px;
-}
-
-.size14 {
-	font-size: 14px;
-}
-
-.size16 {
-	font-size: 16px;
-}
-
-.size18 {
-	font-size: 18px;
-}
-
-.size20 {
-	font-size: 20px;
-}
-
-.size24 {
-	font-size: 24px;
-}
-
-.size30 {
-	font-size: 30px;
-}
-
-.size36 {
-	font-size: 36px;
-}
-
-.size48 {
-	font-size: 48px;
-}
-
-.size60 {
-	font-size: 60px;
-}
-
-.size72 {
-	font-size: 72px;
-}
-
-.size90 {
-	font-size: 90px;
-}
-
-
-.psample_row1 {
-	height: 120px;
-}
-
-.psample_row1 {
-	height: 120px;
-}
-
-.psample_row2 {
-	height: 160px;
-}
-
-.psample_row3 {
-	height: 160px;
-}
-
-.psample_row4 {
-	height: 160px;
-}
+.psample_row1 { height: 120px; }
+.psample_row2 { height: 160px; }
+.psample_row3 { height: 160px; }
+.psample_row4 { height: 160px; }
 
 .psample {
 	overflow: hidden;
@@ -257,7 +219,6 @@ div.glyph_range {
 .white_blend {
 	width:            100%;
 	height:           61px;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVkAAAA9CAYAAAAH4BojAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO1JREFUeNrs3TsKgFAMRUE/eer+NxztxMYuEWQG3ECKwwUF58ycAKixOAGAyAKILAAiCyCyACILgMgCiCyAyAIgsgAiCyCyAIgsgMgCiCwAIgsgsgAiC4DIAogsACIL0CWuZ3UGgLrIhjMA1EV2OAOAJQtgyQLwjOzmDAAiCyCyAIgsQFtkd2cAEFkAkQVAZAHaIns4A4AlC2DJAiCyACILILIAiCzAV5H1dQGAJQsgsgCILIDIAvwisl58AViyAJYsACILILIAIgvAe2T9EhxAZAFEFgCRBeiL7HAGgLrIhjMAWLIAliwAt1OAAQDwygTBulLIlQAAAABJRU5ErkJggg==);
 	position:         absolute;
 	bottom:           0;
 }
@@ -265,7 +226,6 @@ div.glyph_range {
 .black_blend {
 	width:            100%;
 	height:           61px;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVkAAAA9CAYAAAAH4BojAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPJJREFUeNrs3TEKhTAQRVGjibr/9QoxhY2N3Ywo50A28IrLwP9g6b1PAMSYTQAgsgAiC4DIAogsgMgCILIAIgsgsgCILIDIAogsACILILIAIguAyAKILIDIAiCyACILgMgCZCnjLWYAiFGvB0BQZJsZAFyyAC5ZAO6RXc0AILIAIguAyAKkRXYzA4DIAogsACILkBbZ3QwALlkAlywAIgsgsgAiC4DIArwVWf8uAHDJAogsACILILIAv4isH74AXLIALlkARBZAZAFEFoDnyPokOIDIAogsACILkBfZZgaAuMhWMwC4ZAE+p4x3mAEgxinAAJ+XBbPWGkwAAAAAAElFTkSuQmCC);
 	position:         absolute;
 	bottom:           0;
 }
@@ -281,7 +241,6 @@ div.glyph_range {
 	margin-bottom: 0;
 }
 
-
 .sample_table td {
 	padding-top:    3px;
 	padding-bottom: 5px;
@@ -293,8 +252,6 @@ div.glyph_range {
 .sample_table td:first-child {
 	background-color: #eee;
 	text-align:       right;
-	padding-right:    5px;
-	padding-left:     0;
 	padding:          5px;
 	font:             11px/12px 'Courier New', Courier, mono;
 }
@@ -307,7 +264,6 @@ code {
 	margin-bottom:    18px;
 	overflow:         auto;
 }
-
 
 .bottom, .last {
 	margin-bottom:  0 !important;
@@ -356,40 +312,22 @@ code {
 	line-height: 90px;
 }
 
-.fontbody {
-	position: relative;
-}
+.fontbody { position: relative; }
+.arialbody { font-family: Arial; position: relative; }
+.verdanabody { font-family: Verdana; position: relative; }
+.georgiabody { font-family: Georgia; position: relative; }
 
-.arialbody {
-	font-family: Arial;
-	position:    relative;
-}
-
-.verdanabody {
-	font-family: Verdana;
-	position:    relative;
-}
-
-.georgiabody {
-	font-family: Georgia;
-	position:    relative;
-}
-
-/* @group Layout page
- */
-
+/* Layout page */
 #layout h1 {
 	font-size:   36px;
 	line-height: 42px;
 	font-weight: normal;
-	font-style:  normal;
 }
 
 #layout h2 {
 	font-size:   24px;
 	line-height: 23px;
 	font-weight: normal;
-	font-style:  normal;
 }
 
 #layout h3 {
@@ -397,9 +335,7 @@ code {
 	line-height: 1.4em;
 	margin-top:  1em;
 	font-weight: normal;
-	font-style:  normal;
 }
-
 
 #layout p.byline {
 	font-size:     12px;
@@ -430,10 +366,7 @@ code {
 	margin-bottom: 18px;
 }
 
-/* @end */
-
-/* @group Glyphs */
-
+/* Glyphs */
 #glyph_chart div {
 	background-color: #d9f3ff;
 	color:            black;
@@ -462,15 +395,11 @@ code {
 	padding:          2px 0;
 }
 
-
 #glyphs h1 {
 	font-family: Arial, sans-serif;
 }
 
-/* @end */
-
-/* @group Installing */
-
+/* Installing */
 #installing {
 	font: 13px Arial, sans-serif;
 }
@@ -482,13 +411,10 @@ code {
 	font:          13px Arial, sans-serif;
 }
 
-
 #installing h3 {
 	font-size:  15px;
 	margin-top: 18px;
 }
-
-/* @end */
 
 #rendering h1 {
 	font-family: Arial, sans-serif;
@@ -498,5 +424,3 @@ code {
 	font:           11px 'Courier New', Courier, mono;
 	vertical-align: middle;
 }
-
-
