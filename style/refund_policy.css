@@ -4,11 +4,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
+/* body{
   line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 
-}
+} */
 .policy{
     width: 60%;
     margin: 10px 50px 10px 30px ;
