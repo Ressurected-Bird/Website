@@ -31,7 +31,7 @@ var database_ref = database.ref()
  //////// create user data
  var user_data = {
     email: email,
-    fname : fname
+    fname : fname,
     last_login : Date.now()
  }
  database_ref.child('users/' +user.uid).set(user_data)
@@ -50,4 +50,3 @@ alert('User Created!')
 }
 
 
-}

@@ -11,6 +11,16 @@ body{
 	
 	
 }
+@font-face {
+  font-family: 'Rosec';
+  src: url('Rosec.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Rosec', sans-serif;
+}
+
 
 .about_us{
     margin: 50px auto 40px;
